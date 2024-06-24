@@ -1,5 +1,5 @@
-import css from './FriendListItem.module.css';
 import PropTypes from 'prop-types';
+import css from './FriendListItem.module.css';
 
 export const FriendListItem = ({
     avatar,
@@ -15,7 +15,7 @@ export const FriendListItem = ({
     };
 
     return (
-        <li className={css.FriendListItem}>
+        <li className={css.friendListItem}>
             <span className={isOnline ? css.online : css.offline}></span> 
             <img className={css.avatar}
                 style={{ backgroundColor: generateRandomColor() }} 
