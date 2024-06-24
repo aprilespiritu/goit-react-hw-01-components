@@ -21,7 +21,7 @@ export const FriendListItem = ({
                 style={{ backgroundColor: generateRandomColor() }} 
                 src={avatar}
                 alt="User Avatar"
-                width="100" />
+                width="70" />
             <p ClassName={css.name}>{name}</p>
         </li>
     );
